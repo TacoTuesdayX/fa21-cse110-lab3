@@ -18,7 +18,7 @@
                     </li>
                 </ol>
             </nav>
-            <img src="./res/fav.jpg">
+            <img src="./res/fav.jpg" alt="noice">
             <hr> 
         </header>
         <main>
@@ -82,13 +82,10 @@
                 <fieldset>
                     <label for="name">Name (first, last):</label>
                     <input type="text" id="name" name="name"><br><br>
-
                     <label for="today">Today's Date:</label>
                     <input type="date" id="today" name="today"><br><br>
-
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email"><br><br>
-
                     <label for="inquiry-type">Inquiry Type:</label>
                     <select name="inquiry-type" id="inquiry-type">
                         <option value="bored">Nothing</option>
@@ -97,15 +94,13 @@
                         <option value="fp">FP</option>
                         <option value="other">Other</option>
                     </select> <br><br>
-                    
-                    <label for="inquiry-type">Individual Status:</label>
-                    <input list="inquiry-types" id="inquiry-type" name="inquiry-type" />
-                    <datalist id="inquiry-types">
+                    <label for="individual-status">Individual Status:</label>
+                    <input list="individual-status-types" id="individual-status" name="individual-status"/>
+                    <datalist id="individual-status-types">
                         <option value="Student">
                         <option value="Professional">
                         <option value="other">
                     </datalist>  <br><br>
-
                     <label for="thoughtbox">What are your thoughts?:</label> <br><br>
                     <textarea id="thoughtbox" name="thoughtbox" rows="3" cols="50">
                         here we can contemplate 42
