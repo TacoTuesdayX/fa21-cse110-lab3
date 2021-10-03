@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meeting Notes</title>
+        <link rel="shortcut icon" type="image/jpg" href="./res/fav.jpg">
+    </head>
+    <body>
+        <header>
+            <h1>Project Team Meetings</h1>
+            <nav class="meetings">
+                <ol>
+                    <li class="meetings"><a href="https://c.tenor.com/52WcdD56kksAAAAM/bulb-light-bulb.gif">Meeting 1</a></li>
+                    <li class="meetings"><a href="https://i.imgur.com/RLclGF9.gif?noredirect">Meeting 2</a></li>
+                    <li class="meetings">
+                        <a href="http://3.bp.blogspot.com/-V0EfhozPCUw/UB5pctZDjgI/AAAAAAAACGc/tuV0MATs7tY/s1600/kid-hit-will-ball.gif">Meeting 3</a>
+                    </li>
+                </ol>
+            </nav>
+            <img src="./res/fav.jpg">
+            <hr> 
+        </header>
+        <main>
+            <section>
+                <ul>
+                    <li>
+                        <h2>CryptoPay Weekly Meeting 9/23</h2>
+                        <p>project debrief</p>
+                        <details>
+                            <summary><i>2:30pm PST--</i> Meeting Notes:</summary>
+                            <p>Team has a really cool idea supposedly, and they're looking for a guy with knowledge on cloud infrastructure. They have a prototype built with:</p>
+                            <ul>
+                                <li>chrome extension application (unstructured w/ javascript)</li>
+                                <li>using flask server for compute</li>
+                                <li>there's no actual user data, hard coded logic</li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <h2>CryptoPay Weekly Meeting 9/30</h2>
+                        <p>timeline, infrastructure, and competitors</p>
+                        <details>
+                            <summary><i>3:00pm PST--</i> Meeting Notes:</summary>
+                            <p>Found out our submission will be due in 2 weeks, feeling uneasy about that deadline. I also debriefed the team on some practices/decisions that can kick off good security practices (move to cloud infrastructure, consider CDN like cloudwatch, observability tools). We also discovered a competitor to our idea. </p>
+                        </details>
+                    </li>
+                    <li>
+                        <h2>CryptoPay Weekly Meeting 9/30</h2>
+                        <p>the new age of anxiety</p>
+                        <details>
+                            <summary><i>2:00am PST--</i> Meeting Notes:</summary>
+                            <p>So after a bit of deliberation, we realized the complexities of banking systems and how the U.S. regulates fintechs, leaning towards not pursuing this idea. Might just hit a couple hackathons with some fresh ideas in the bag, hope and pray.</p>
+                        </details>
+                    </li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section>
+                Only <em>sometimes</em> there's a project worth pursuing, but this one aint it.
+            </section>
+        </main>
+        <div>
+            <p>
+                The <i>div</i> tag allows for lazzines in HTML, and there's typically a better <br> alternative for dividing, but the <i>span</i> tag <span>
+                    <video width="120" height="60" controls>
+                        <source src="./res/fail.mp4" type="video/mp4">
+                    </video>
+                </span> allows for <br> cool inlines like so.
+            </p>
+        </div>
+        <footer>
+            <hr>
+            <strong>Meaning of life:</strong>
+            <audio controls>
+                <source src="./res/life.mp3" type="audio/mp3">
+            </audio>
+            <h3>Contact me!</h3>
+            <form>
+                <fieldset>
+                    <label for="name">Name (first, last):</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="today">Today's Date:</label>
+                    <input type="date" id="today" name="today"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="inquiry-type">Inquiry Type:</label>
+                    <select name="inquiry-type" id="inquiry-type">
+                        <option value="bored">Nothing</option>
+                        <option value="42">42</option>
+                        <option value="HTML consultation">HTML Consultation</option>
+                        <option value="fp">FP</option>
+                        <option value="other">Other</option>
+                    </select> <br><br>
+                    
+                    <label for="inquiry-type">Individual Status:</label>
+                    <input list="inquiry-types" id="inquiry-type" name="inquiry-type" />
+                    <datalist id="inquiry-types">
+                        <option value="Student">
+                        <option value="Professional">
+                        <option value="other">
+                    </datalist>  <br><br>
+
+                    <label for="thoughtbox">What are your thoughts?:</label> <br><br>
+                    <textarea id="thoughtbox" name="thoughtbox" rows="3" cols="50">
+                        here we can contemplate 42
+                    </textarea>
+                    <p>What do you think of my awesome website?:</p>
+                    <input type="radio" id="great" name="thought" value="great">
+                    <label for="great">Great</label>
+                    <input type="radio" id="okay" name="thought" value="okay">
+                    <label for="okay">Okay, but why did you only use HTML?</label>
+                    <input type="radio" id="horrible" name="thought" value="horrible">
+                    <label for="horrible">Made my eyes bleed</label>
+                </fieldset>
+                <button type="button">Message Nobody</button>
+            </form>
+        </footer>
+    </body>
+</html>
